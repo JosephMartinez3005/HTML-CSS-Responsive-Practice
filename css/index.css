@@ -9,7 +9,6 @@
 .backgroundImg{
     background-image:url(/images/header.jpg) ;
     background-size: cover;
-    background-position: center;
     height:60vh;
 }
 
@@ -38,4 +37,35 @@ ul{
     font-family: 'Oxygen', sans-serif;
     color:#266035;
     font-weight: 100;
+}
+
+h1{
+    font-size:6rem;
+    color:white;
+    text-align: center;
+    margin-top:15rem;
+    font-family: 'Oxygen', sans-serif;
+    font-weight: 100;
+}
+
+h2{
+    text-align: center;
+    margin-top: 10rem;;
+}
+
+h2 a{
+    font-size: 2.5rem;
+    text-decoration: none;
+    font-family: 'Oxygen', sans-serif;
+    color:#266035;
+    background-color:white;
+    border:1px solid grey;
+    padding:2rem;
+    font-weight: 100;
+}
+
+.backgroundImg2{
+    background-image: url(/images/about-img.jpg);
+    background-size: cover;
+    height:80vh;
 }
