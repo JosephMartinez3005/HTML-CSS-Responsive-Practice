@@ -1,8 +1,9 @@
 /* font-family: 'Source Sans Pro', sans-serif; */
-/* font-family: 'Source Sans Pro', sans-serif; */
+
 *{
     margin:0;
     padding:0;
+    /* border: 1px solid black; */
     font-size: 65.2%;
 }
 
@@ -10,6 +11,7 @@
     background-image:url(/images/header.jpg) ;
     background-size: cover;
     height:60vh;
+    background-position: center;
 }
 
 .left-nav{
@@ -63,9 +65,97 @@ h2 a{
     padding:2rem;
     font-weight: 100;
 }
-
+/* Second Section */
 .backgroundImg2{
     background-image: url(/images/about-img.jpg);
     background-size: cover;
-    height:80vh;
+    height:70vh;
+    background-position: center;
+}
+ 
+.ourStory{
+    padding-top: 35rem;
+    background-position: relative;
+}
+
+h3{
+    font-size:6rem;
+    font-family: 'Oxygen', sans-serif;
+    font-weight: 100;
+    margin-left:65%;
+    color:#266035;
+}
+
+p{
+    padding-top:4rem;
+    margin-left:60%;
+    width:38%;
+    font-size:2.5rem;
+    font-weight:500;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.plants{
+    font-size:5rem;
+    font-family: 'Oxygen', sans-serif;
+    font-weight: 100;
+    height:10vh;
+    margin-left: 25%;
+    margin-top: 5rem;
+    color:#266035;
+}
+/* First Row in Our Plants */
+.firstRow{
+    width:100%;
+}
+
+.firstPlant{
+    width:65%;
+    margin-left:-35%;
+}
+.firstPlantImg{
+    width:100%;
+    margin-left:0%;
+}
+
+.succulants{
+    margin-top: -50rem;
+    margin-left:50rem;
+    font-size: 5rem;
+}
+
+.sucP{
+    color:black;
+    margin-left:40rem;
+    width:50rem;
+}
+
+.leftBox{
+    margin-top:30rem;
+    
+}
+
+.secondRow{
+    width:100%;
+    margin-top:77rem;
+    margin-left:-.5rem;
+    
+}
+.leftBox{
+    width:62%;
+    margin-left: -25%;;
+}
+.cactiP{
+    width:40rem;
+    margin-left:42rem;
+}
+.rightBox{
+    margin-left: -6rem;
+}
+
+.secondPlantImg{
+    margin-top:-40.4rem;
+    margin-left: -5%;
+    width:50%;
+    float:right;
 }
