@@ -121,7 +121,6 @@ p{
 /* First Row in Our Plants */
 .firstRow{
     background-color: #FBFFFB;
-    margin-top: 3rem;
     width:100%;
     display:flex;
     justify-content: space-between;
@@ -231,9 +230,29 @@ p{
 }
 footer{
     background-color:#266035;
-    height:50vh;
+    height:60vh;
     font-family: 'Source Sans Pro', sans-serif;
 }
 h6{
     color:white;
+    font-size: 5rem;
+}
+
+.getInTouch{
+    text-align: center;
+    padding-top:10rem;
+}
+.findUs{
+    margin-left:10rem;
+    margin-top:6rem;
+    font-size:4rem;
+}
+.info{
+    font-size:3rem;
+    margin-left:10rem
+}
+.footer{
+    margin-top:-80%;
+    margin-left:60%;
+    width:25%;
 }
