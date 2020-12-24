@@ -3,14 +3,14 @@
 *{
     margin:0;
     padding:0;
-    /* border: 1px solid black; */
+    /* border: .1px solid black; */
     font-size: 65.2%;
 }
 
 .backgroundImg{
     background-image:url(/images/header.jpg) ;
     background-size: cover;
-    height:60vh;
+    height:100vh;
     background-position: center;
 }
 
@@ -69,12 +69,13 @@ h2 a{
 .backgroundImg2{
     background-image: url(/images/about-img.jpg);
     background-size: cover;
-    height:70vh;
+    height:100vh;
     background-position: center;
 }
  
 .ourStory{
     padding-top: 35rem;
+    margin-left:40%;
     background-position: relative;
 }
 
@@ -82,8 +83,19 @@ h3{
     font-size:6rem;
     font-family: 'Oxygen', sans-serif;
     font-weight: 100;
-    margin-left:65%;
-    color:#266035;
+    color:#266035;  
+}
+h4{
+    background-color:#266035;
+    color:white;
+    font-size:3rem;
+    width:20rem;
+    height:4rem;
+    text-align:center;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.ourStory{
+    margin-top: -24rem;;
 }
 
 p{
@@ -106,28 +118,41 @@ p{
 }
 /* First Row in Our Plants */
 .firstRow{
+    margin-top: 3rem;
     width:100%;
+    display:flex;
+    justify-content: space-between;
 }
 
 .firstPlant{
-    width:65%;
-    margin-left:-35%;
+    width:50%;
 }
+
 .firstPlantImg{
     width:100%;
-    margin-left:0%;
+}
+
+.firstRight{
+    margin-top: 25rem;
+    width:40%;
 }
 
 .succulants{
-    margin-top: -50rem;
-    margin-left:50rem;
     font-size: 5rem;
+    margin-top:-10rem;
+    margin-left: 5rem;
 }
 
 .sucP{
     color:black;
-    margin-left:40rem;
-    width:50rem;
+    font-size: 2rem;
+    margin-left: 2rem;
+    margin-top:-2rem;
+    width:70%;
+}
+.shopOne{
+    margin-left:7rem;
+    margin-top: 5rem;;
 }
 
 .leftBox{
@@ -137,25 +162,66 @@ p{
 
 .secondRow{
     width:100%;
-    margin-top:77rem;
-    margin-left:-.5rem;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
     
 }
 .leftBox{
-    width:62%;
-    margin-left: -25%;;
+    margin-top: 0rem;
+    width:50%;
+}
+.cacti{
+    font-size:5rem;
+    margin-top: 0;
+    margin-left:20rem;
 }
 .cactiP{
-    width:40rem;
-    margin-left:42rem;
+   font-size: 2rem;
+   padding-top: 0;
+   width:55%;
+   margin-left:10rem;
+}
+.shopTwo{
+    margin-left:15rem;
+    margin-top:2rem;
 }
 .rightBox{
-    margin-left: -6rem;
+   width:50%;
 }
 
 .secondPlantImg{
-    margin-top:-40.4rem;
-    margin-left: -5%;
+  width:100%;
+}
+
+.thirdRow{
+    width: 100%;
+    height:60vh;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.thirdLeftBox{
     width:50%;
-    float:right;
+}
+
+.thirdPlantImg{
+    width:100%;
+}
+.thirdRightBox{
+    width:50%;
+}
+
+.tropicals{
+    margin-top:25rem;
+    margin-left:25rem;
+}
+.tropicalsP{
+    width:60%;
+    margin-left:15rem;
+}
+.shopFour{
+    margin-left:27rem;
+    margin-top:5rem;
 }
