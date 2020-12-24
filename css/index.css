@@ -112,12 +112,15 @@ p{
     font-family: 'Oxygen', sans-serif;
     font-weight: 100;
     height:10vh;
-    margin-left: 25%;
+    text-align: center;
+    width:100%;
+    background-color: #FBFFFB;
     margin-top: 5rem;
     color:#266035;
 }
 /* First Row in Our Plants */
 .firstRow{
+    background-color: #FBFFFB;
     margin-top: 3rem;
     width:100%;
     display:flex;
@@ -161,6 +164,7 @@ p{
 }
 
 .secondRow{
+    background-color: #FBFFFB;
     width:100%;
     display:flex;
     flex-direction: row;
@@ -196,8 +200,8 @@ p{
 }
 
 .thirdRow{
+    background-color: #FBFFFB;
     width: 100%;
-    height:60vh;
     display:flex;
     flex-direction: row;
     justify-content: space-between;
@@ -214,14 +218,22 @@ p{
 }
 
 .tropicals{
-    margin-top:25rem;
-    margin-left:25rem;
+    margin-top:15rem;
+    margin-left:15rem;
 }
 .tropicalsP{
     width:60%;
-    margin-left:15rem;
+    margin-left:10rem;
 }
 .shopFour{
-    margin-left:27rem;
+    margin-left:15rem;
     margin-top:5rem;
+}
+footer{
+    background-color:#266035;
+    height:50vh;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+h6{
+    color:white;
 }
